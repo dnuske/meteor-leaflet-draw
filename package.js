@@ -1,7 +1,10 @@
 Package.describe({
   summary: "Adds support for drawing and editing vectors and markers on Leaflet maps",
   version: "1.0.1",
-  git: "https://github.com/bdunnette/meteor-leaflet-draw.git"
+  git: "https://github.com/dnuske/meteor-leaflet-draw.git",
+  packages: {
+    mapbox: {}
+  }
 });
 
 Package.onUse(function (api) {
